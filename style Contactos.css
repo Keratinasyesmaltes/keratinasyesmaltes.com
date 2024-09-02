@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .navbar-brand {
+    color: #000; 
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 1.5rem; 
+  }
+  
+  
+  .btn0 {
+    height: 50px;
+    width: auto;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17a2b8;
+  }
+  
+  
+  
+  #btn1-login {
+    height: 50px;
+    max-width: 150px;
+    padding: 0 15px; 
+    text-align: left; 
+  }
+  
+  
+  #search {
+    width: auto; 
+    background-color: #17a2b8; 
+    border: none; 
+    color: #fff; 
+    border-radius: 30px;
+    font-size: 1rem; 
+  }
+  
+  .btn1 {
+    height: 50px; 
+    width: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%; 
+    color: #fff; 
+    background-color: #17a2b8;
+    font-weight: 700; 
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .btn1 .bi {
+    font-size: 1.5rem; 
+  }
+  
+  
+  #btn1-login {
+    width: auto; 
+    min-width: 150px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .d-flex > .btn1 {
+    margin-right: 10px; 
+  }
+  
+  
+  .navbar {
+    padding: 10px 0; 
+  }
+  
+  
+  
+  .btn-rectangular {
+    height: 50px; 
+    min-width: 150px; 
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px; 
+    color: #fff; 
+    background-color: #17a2b8; 
+    font-weight: 700; 
+    font-size: 0.9rem; 
+    padding: 0 15px; 
+    text-align: center; 
+  }
+  
+  .btn1 {
+    height: 50px;
+    width: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%; 
+    color: #fff; 
+    background-color: #17a2b8; 
+    font-weight: 700; 
+    font-size: 1rem; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .btn1 .bi, .btn-rectangular .bi {
+    font-size: 1.5rem; 
+  }
+  
+  
+  .d-flex > .btn-rectangular, .d-flex > .btn1 {
+    margin-right: 10px;
+  }
+  
+  
+  .navbar {
+    padding: 10px 0;
+  }
+
+  body {
+    background-image: url('Imagenes/Fondo\ color\ pastel.png');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la página */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen en su lugar al hacer scroll */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+  
+.container {
+  max-width: 900px;
+  margin-top: 30px;
+}
+.info-box {
+  padding: 20px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+.info-box > div {
+  margin-bottom: 20px;
+}
+.info-box h2 {
+  margin-bottom: 15px;
+}
+.testimonials blockquote {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  background-color: #222; 
+  color: #fff; 
+  font-family: 'Montserrat', sans-serif; 
+  padding: 50px 0;
+}
+
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #f0f0f0;
+}
+
+
+.social-media li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media a {
+  font-size: 24px;
+}
+
+.footer {
+  background-image: url('Imagenes/Fondo\ footer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
